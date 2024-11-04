@@ -6,9 +6,25 @@
     <title>Check Prayer Times in Riyadh Daily</title>
     <meta name="description" content="Check the Prayer times in riyadh daily. We provide daily prayer times of Fajr, Dhuhr,Asr, Maghrib and Isha />
 <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
-<link rel="canonical" href="https://checkmepcobill.pk/" />
+
     <!-- Link to external CSS file -->
     <link rel="stylesheet" href="style.css">
+    <script>
+
+        (function() {
+    // Check if a canonical link tag already exists
+    if (!document.querySelector("link[rel='canonical']")) {
+        // Create a new link element
+        const canonicalLink = document.createElement("link");
+        canonicalLink.rel = "canonical";
+        canonicalLink.href = window.location.href;
+
+        // Append the canonical link to the head
+        document.head.appendChild(canonicalLink);
+    }
+})();
+
+    </script>
 </head>
 <body>
     <div class="tool">
